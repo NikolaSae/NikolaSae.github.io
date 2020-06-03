@@ -143,7 +143,7 @@ header.sticky .nav-collapse a:hover{
   text-align: center;
   margin-top: -25px
 }
-div h2{
+.content div h2{
   padding-top: 10%;
 }
 
@@ -291,16 +291,18 @@ div h2{
 }
 #logo-header {
   float: left;
+  min-width: 350px;
+  padding-top: 10px;
 
 }
 #logo {
-  background-image: url(../img/tea.png);
+  background-image: url(../img/logo-noge.png);
   background-repeat: no-repeat;
   padding-top: 60px;
   float: left;
   width: 50%;
-  margin-top: 10px;
-  background-size: 50px, auto;
+  margin-top: 0px;
+  background-size: auto;
   margin-bottom: 10px;
 }
 
@@ -688,7 +690,7 @@ div h2{
     border: 1px solid #3c3c3c;
     padding: 10px 20px;  		 
     font-style: initial;
-    margin: 50px auto 0;
+    /*margin: 50px auto 0;*/
     display: block;
   }
   form button:hover{
@@ -697,7 +699,7 @@ div h2{
     transition: all 0.5s;
   }
   footer{
-    padding: 185px 0 75px;
+    padding: 50px 0 50px;
   }
   footer p{
     font-size: 14px;
@@ -708,8 +710,8 @@ div h2{
     float: left;
   }
   footer .social{
-   width: 20%;
-   float: left;
+    margin-left: auto;
+    margin-right: auto;
  }
  footer a{
   text-decoration: none;  		
@@ -811,3 +813,6 @@ footer a:hover{
 }
 
 
+.footer-omkili{
+  padding-bottom: 30px;
+}
