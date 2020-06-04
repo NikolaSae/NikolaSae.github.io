@@ -171,29 +171,41 @@
 
 @media only screen and (min-width:1000px) and (max-width: 1400px) {
 	#banner {
-		background-size: 600px, 40px;
+		/*background-size: 600px, 40px;*/
 		background-position: center;
 	}
 }
 @media only screen and (min-width:768px) and (max-width: 999px) {
 	#banner {
-		background-size: 750px, 40px;
+		/*background-size: 750px, 40px;*/
 		background-position: center;
 	}
+	.content div h2{
+		padding: 0;
+	}
+	#art-categories .container .row{
+	padding-bottom: 20px;
+}
 }
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-
+#art-categories .container .row{
+	padding-bottom: 20px;
+}
 	/*.innerbanner{
 		padding-left: 100px;
 	}*/
-
+	#o-umetniku{
+		padding: 0px;
+	}
 	#banner {
 		background-position: center;		
 		/*padding: 160px 0 100px;*/
-		background-size: 600px, 40px
+		/*background-size: 600px, 40px*/
 	}
-
+	.content div h2{
+		padding: 0;
+	}
 	.innerspecial {
 		width: 50%;
 	}
