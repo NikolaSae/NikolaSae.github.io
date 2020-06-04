@@ -652,6 +652,7 @@ header.sticky .nav-collapse a:hover{
     background-size: cover;    		
     text-align: center;
     padding: 70px 0 0;
+	min-height: 100vh;
   }
   .innercontactleft,.contactform{
     text-align: left;
