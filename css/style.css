@@ -14,8 +14,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 body {
 	line-height: 1;	
-	color: grey;
-  background-color: black;
+	color: #fbfbfb;
+  background-color: #000000;
 }
 ol, ul {
 	list-style: none;
