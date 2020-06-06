@@ -14,7 +14,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 body {
 	line-height: 1;	
-	color: grey;
+	color: #848484;
   background-color: black;
 }
 ol, ul {
@@ -105,41 +105,7 @@ header.sticky .nav-collapse a:hover{
 }
 
 
-.hexa-section{
-  margin-top:3em;
-  display:flex;
-  flex-flow: column;
-  align-items: left;
-}
-.hexagon {
-  width: 100px;
-  height: 110px;
-  background: yellow;
-  position: relative;
-  display:inline-block;
-  margin:0.2em;
-  -webkit-mask:url('../img/5Fk.svg') no-repeat 50% 50%;
-  mask:url('../img/5Fk.svg') no-repeat 50% 50%;
-  /*background-image: url('https://img1.ibxk.com.br/2017/07/13/13160112901226.jpg?w=700');*/
-  background-size: cover;
-  background-position: center;
-}
-.hexagon1 {
-  background-image: url('../img/13160112901226.jpg');
-}
-.hexagon3 {
-  background-image: url('../img/omca-broj-1201.png');
-}
-.hexagon2 {
-  background-image: url('https://tympanus.net/Development/HoverEffectIdeas/img/2.jpg');
-}
-.hexagon:hover {
-  /*position: absolute;*/
-  background: rgba(200,100,100, 1);
-  /*opacity: 1s;*/
-  transition:all 1.0s;
 
-  /*border: 2px solid green;*/
 }
 .row1{
   text-align: center;
@@ -150,101 +116,12 @@ header.sticky .nav-collapse a:hover{
 }
 
 
-/*img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-}*/
-
-.hexagon-gallery {
-  margin: auto;
-  /*margin-top: 50px;*/
-  max-width: 500px;
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-auto-rows: 95px;
-  grid-gap: 10px;
-  /*padding-bottom: 5px;*/
-  height: 450px;
-  /*background-color: blue;*/
-  padding-top: 25px;
-}
-
-.hex {
-  box-shadow:  2px solid black;
-  display: flex;
-  position: relative;
-  width: 85px;
-  height: 135px;
-  /*background-color: #424242;*/
-  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-}
-/*div.hex div img:hover {
-  border: 2px solid white;
-  background-color: red;
-  background-size: 100%;
-  background-position: center;
-  z-index: 1;
-}*/
-
-/*.hex:hover {*/
-  /*border: 20px solid white;*/
-  /*z-index: 0;*/
-
-/*}*/
 
 
-.hex:first-child {
-  grid-row-start: 1;
-  grid-column: 2 / span 2;
-}
 
-.hex:nth-child(2) {
-  grid-row-start: 1;
-  grid-column: 4 / span 2;
-}
 
-.hex:nth-child(3) {
-  grid-row-start: 1;
-  grid-column: 6 / span 2;
-}
 
-.hex:nth-child(4) {
-  grid-row-start: 2;
-  grid-column: 1 / span 2;
-}
 
-.hex:nth-child(5) {
-  grid-row-start: 2;
-  grid-column: 3 / span 2;
-}
-
-.hex:nth-child(6) {
-  grid-row-start: 2;
-  grid-column: 5 / span 2;
-}
-
-.hex:nth-child(7) {
-  grid-row-start: 2;
-  grid-column: 7 / span 2;
-}
-
-.hex:nth-child(8) {
-  grid-row-start: 3;
-  grid-column: 2 / span 2;
-}
-
-.hex:nth-child(9) {
-  grid-row-start: 3;
-  grid-column: 4 / span 2;
-}
-
-.hex:nth-child(10) {
-  grid-row-start: 3;
-  grid-column: 6 / span 2;
-}
 
 
 
@@ -394,21 +271,19 @@ header.sticky .nav-collapse a:hover{
 
   .nav-collapse a:active,
   .nav-collapse .active a {
-  	/*color: #3c3c3c; 
-  	border:1px solid #3c3c3c;
-  	transition:all 0.5s; */
+
   }
   .nav-collapse a:hover{
   	color: #fffc00; 
   	transition:all 0.5s; 
-  	/*background:#f2de7c;  	*/
+  	
     border-bottom: 1px solid yellow
   }
 
   @media screen and (min-width: 767px) {
   	.nav-collapse a {
 
-  		/*border: 1px solid white;*/
+  		
   		text-align: center;
   		float: left;  		
   	}
@@ -468,38 +343,31 @@ header.sticky .nav-collapse a:hover{
 
 #background-home{
   max-width: 100%;
-  /*height: 100%;*/
+
   max-height: 80vh;
   padding-top: 70px;
   background-color: black;
-  /*background-position: center;*/
-  /*background-size: 99vh, 99vw;*/
+
 }
 
   #home{
     width: 99vw;
-    /*background: url(../img/omca-art16.png) no-repeat;  */
-    /*background-size: cover;    		*/
+ 
     text-align: center;
-    /*padding: 420px 0 376px;*/
+
     height: 100vh;
     background-color: black;
-    /*background-position: center;*/
-    /*background-size: 99vh, 99vw;*/
+
     margin-right: auto;
     margin-left: auto;
     height: auto;
   }
   #art-categories{
     background-color: black;
-    /*background-color: #FFEF30;*/
-    /*padding: 65px 0 85px;*/
-    color: grey;
+
+    color: #848484;
   }
-/*  #special{
-    padding: 80px 0 100px;
-    display:block;
-  }*/
+
 
   h1{  		
     font-weight: 300;
@@ -524,24 +392,7 @@ header.sticky .nav-collapse a:hover{
     font-size: 16px;
     line-height: 23px;
   }
-/*  .innerspecial{
-    width: 16.6%;
-    float: left;
-    padding-top: 50px;
-  }
-  .innerspecial img{
-    width: 100%;
-    display: block;
-  }
-  .innerspecial p{
-    font-size: 14px;
-    padding-top: 10px;
-  }
 
-  .innerspecial h2{
-    padding-top: 20px;
-    line-height: 51px;
-  }*/
   span.line{
     display: block;
     margin: 0 auto;
@@ -550,9 +401,9 @@ header.sticky .nav-collapse a:hover{
     background: #3c3c3c;
   }
   #o-umetniku{
-    background:#eeefef;
-    padding: 100px 0 100px;
-	color: grey;
+    background:#000;
+    /*padding: 100px 0 100px;*/
+	color: #848484;
     
   }
   #o-umetniku .inneraboutleft{
@@ -663,7 +514,7 @@ header.sticky .nav-collapse a:hover{
   }
   .innercontactleft,.contactform{
     text-align: left;
-    padding-left: 50px;
+    /*padding-left: 50px;*/
     padding-top: 45px;
   }
 

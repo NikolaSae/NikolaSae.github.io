@@ -1,40 +1,352 @@
 <!DOCTYPE html>
+<!--
+/*
+ * blueimp Gallery Demo
+ * https://github.com/blueimp/Gallery
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * https://opensource.org/licenses/MIT
+ */
+-->
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Galerija Omkiliart</title>
-	<link rel="stylesheet" type="text/css" href="css/gallery-1.css">
-	<link rel="stylesheet" type="text/css" href="css/gallery-2.css">
-</head>
-<body>
-	<div class="content">
-		<div class="row">
-			
+  <head>
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <![endif]-->
+    <meta charset="utf-8" />
+    <title>Mandale Omkiliart</title>
+    <meta
+      name="description"
+      content="blueimp Gallery is a touch-enabled, responsive and customizable image and video gallery, carousel and lightbox, optimized for both mobile and desktop web browsers. It features swipe, mouse and keyboard navigation, transition effects, slideshow functionality, fullscreen support and on-demand content loading and can be extended to display additional content types."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    		<meta name="viewport" content="width=device-width initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,700,300italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/grid.css">	
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" href="css/blueimp-gallery.css" />
+    <link rel="stylesheet" href="css/blueimp-gallery-indicator.css" />
+    <!-- <link rel="stylesheet" href="css/blueimp-gallery-video.css" /> -->
+    <link rel="stylesheet" href="css/demo/demo.css" />
+    <link rel="stylesheet" href="css/style1.css">
+  </head>
+  <body>
+   <div class="se-pre-con">
+			<div class="cssload-container">
+				<div class="cssload-speeding-wheel"></div>
+			</div>
 		</div>
-	</div>
-	<div class="wrapper">
-  <img src="https://source.unsplash.com/random/600x600?water" alt="">
-  <img src="https://source.unsplash.com/random/600x600?summer" alt="">
-  <img src="https://source.unsplash.com/random/600x600?plants" alt="">
-  <img src="https://source.unsplash.com/random/600x600?snow" alt="">
-  <img src="https://source.unsplash.com/random/600x600?roses" alt="">
-  <img src="https://source.unsplash.com/random/600x600?sky" alt="">
-  <img src="https://source.unsplash.com/random/600x600?nature" alt="">
-  <img src="https://source.unsplash.com/random/600x600?blossom" alt="">
-  <img src="https://source.unsplash.com/random/600x600?ice" alt="">
-  <img src="https://source.unsplash.com/random/600x600?spring" alt="">
-    <img src="https://source.unsplash.com/random/600x600?water" alt="">
-  <img src="https://source.unsplash.com/random/600x600?summer" alt="">
-  <img src="https://source.unsplash.com/random/600x600?plants" alt="">
-  <img src="https://source.unsplash.com/random/600x600?snow" alt="">
-  <img src="https://source.unsplash.com/random/600x600?roses" alt="">
-  <img src="https://source.unsplash.com/random/600x600?sky" alt="">
-  <img src="https://source.unsplash.com/random/600x600?nature" alt="">
-  <img src="https://source.unsplash.com/random/600x600?blossom" alt="">
-  <img src="https://source.unsplash.com/random/600x600?ice" alt="">
-  <img src="https://source.unsplash.com/random/600x600?spring" alt="">
-</div>
-</div>
-	</div>
-</body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+						<div id="logo-header">
+							<div id="logo"></div>
+							<p style="float: right; width: 50%; color: lightgray; margin-top: 10px;">BROJ ZA PORUČIVANJE<br> 064 11 22 334</p>
+						</div>
+
+						<nav class="nav-collapse"> 
+							<ul>     
+								<li class="menu-item active"><a href="#home" data-scroll>Home</a></li>
+								<li class="menu-item"><a href="#art-categories" data-scroll>Art</a></li>
+
+								<!-- <li class="menu-item"><a href="#special" data-scroll>Galerija</a></li> -->
+								<li class="menu-item"><a href="#o-umetniku" data-scroll>O umetniku</a></li>
+								<!-- <li class="menu-item"><a href="#menu" data-scroll>Galerija</a></li> -->
+								<li class="menu-item"><a href="#contact" data-scroll>Kupi</a></li>
+								<!-- <li class="menu-item"><a href="#map" data-scroll>Map</a></li> -->
+							</ul>
+						</nav> 
+					</div>
+				</div>
+			</div>
+		</header>
+  
+		<section id="o-umetniku" style="padding:0px; width:auto;">
+			<div class="container" style="width:auto;">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="inneraboutleft">
+							<h1 class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.3s">Mandale</h1>
+							<!-- <img src="img/noodle.png" alt="" class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s"> -->
+							<p class="os-animation" data-os-animation="zoomInUp" data-os-animation-delay="0.5s">Bojan Đorđević – OMČA je rođen 1981. godine u Beogradu. <br> Diplomirao je Istoriju umetnosti na Filozofskom fakultetu u Beogradu. <br>Jedan je od osnivača Kolektiva Mubareć (2006-2013) i grupe Art Brut Serbia (2013). </p>
+						
+<a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+ <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+<a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+ <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+ <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+ <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+ <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+ <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+  <a href="images/omkili-10.jpg" title="omkili-10" data-gallery>
+    <img src="images/thumbnails/omkili-10-t.jpg" alt="omkili-10" />
+  </a>
+
+					 <!--  <a href="mandale.html">Mandale</a>
+    <a href="#folder-2">folder - 2</a>
+    <a href="#folder-3">folder - 3</a>
+    <a href="#folder-4">folder - 4</a>
+    <div id="links folder-1" class="links">
+    	
+
+
+    </div> -->
+
+						</div>
+					</div>
+					<!-- <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<img src="img/omca-profil.png" alt="" class="inneraboutright">
+					</div> -->
+				</div>
+				<!-- <div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="inneraboutleft">
+							<p class="os-animation" data-os-animation="zoomInDown" data-os-animation-delay="1s">
+								Bojan Đorđević Omča je poznat po tome što čini stvari komplikovanijim još od kraja prošlog veka. Njegova dugogodišnja praksa kolažiranja započeta je kroz fanzine Likra i Zmajevo govno, nastavila se u raznim, sada već poznatim serijama, kao što su “Napadi mastersa na svetu porodicu” ili “Ću Ću Ću”. Polazeći od etablirane umetnosti ili ne, ovaj car dobrih kombinacija stvarao je i kolaže u pop art maniru, a zatim je kolažiranje preneo i u treću dimenziju, usavršavajući tehnike korišćenja najlona i lepka. U ovoj epizodi priključiće mu se i neki od dugogodišnjih saradnika, kolega, sakolažista, a možete mu se pridružiti i vi.
+							</p>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</section>
+
+
+
+
+		<!-- <section>
+			
+			<div class="container">
+				<div class="row">
+					<!-- <div class="col-lg-6 col-md-5 col-sm-5 col-xs-12">
+					</div> -->
+					<!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	
+
+					</div> -->
+				<!-- </div> -->
+				<!-- <div class="row">
+					<!-- <div class="col-lg-6 col-md-5 col-sm-5 col-xs-12">
+					</div> -->
+				<!-- 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						
+							<h1 class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.3s" style="line-height: 1.2;font-size: 1.2em;">Pronadjite mandale koje vas smiruju, a za one slobodnijeg duha, tu su i fetis mandale. Narucite neke od kolaza iz galerije ili napravljene specijalno za vas. Ovde cete naci i unikatane pop-art crteze, fake comics-e i razne pattern-e, rukom crtane.</h1>
+							<!-- <img src="img/logo-noge.png" alt="" class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.5s"> -->
+						
+					<!-- </div> -->
+				<!-- </div> --> 
+			<!-- </div> -->
+		<!-- </section> --> 
+   <!--  <h2>Lightbox image gallery</h2>
+    <p>
+      <input type="checkbox" id="fullscreen" />
+      <label for="fullscreen">Fullscreen</label>
+    </p> -->
+    <!-- The container for the list of example images -->
+   <!--  <a href="mandale.html">Mandale</a>
+    <a href="#folder-2">folder - 2</a>
+    <a href="#folder-3">folder - 3</a>
+    <a href="#folder-4">folder - 4</a>
+    <div id="links folder-1" class="links">
+    	
+
+
+    </div> -->
+    
+    <!-- The Gallery as lightbox dialog -->
+    <div
+      id="blueimp-gallery"
+      class="blueimp-gallery"
+      aria-label="image gallery"
+      aria-modal="true"
+      role="dialog"
+    >
+      <div class="slides" aria-live="polite"></div>
+      <h3 class="title"></h3>
+      <a
+        class="prev"
+        aria-controls="blueimp-gallery"
+        aria-label="previous slide"
+        aria-keyshortcuts="ArrowLeft"
+        >‹</a
+      >
+      <a
+        class="next"
+        aria-controls="blueimp-gallery"
+        aria-label="next slide"
+        aria-keyshortcuts="ArrowRight"
+        >›</a
+      >
+      <a
+        class="close"
+        aria-controls="blueimp-gallery"
+        aria-label="close"
+        aria-keyshortcuts="Escape"
+        >×</a
+      >
+      <a
+        class="play-pause"
+        aria-controls="blueimp-gallery"
+        aria-label="play slideshow"
+        aria-keyshortcuts="Space"
+        aria-pressed="false"
+        role="button"
+      ></a>
+      <ol class="indicator"></ol>
+    </div>
+    <script src="js/blueimp-helper.js"></script>
+    <script src="js/blueimp-gallery.js"></script>
+    <!-- <script src="js/blueimp-gallery-fullscreen.js"></script> -->
+    <script src="js/blueimp-gallery-indicator.js"></script>
+    <!-- <script src="js/blueimp-gallery-video.js"></script> -->
+    <!-- <script src="js/blueimp-gallery-vimeo.js"></script> -->
+    <!-- <script src="js/blueimp-gallery-youtube.js"></script> -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/jquery.blueimp-gallery.js"></script>
+    <script src="js/demo/demo.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		 <script type="text/javascript" src="js/fixed-responsive-nav.js"></script>
+		 <script type="text/javascript" src="js/script.js"></script>
+		 <script type="text/javascript" src="js/waypoints.min.js"></script>
+  </body>
 </html>

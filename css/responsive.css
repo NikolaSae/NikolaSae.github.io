@@ -3,17 +3,7 @@
 /* #Media Queries
 ================================================== */
 @media only screen and (min-width:992px) and (max-width: 1200px) {
-	.innerspecial h2 {	
-		line-height: 40px;
-		font-size: 16px;
-	}
-	.innerspecial span{
-		margin-bottom: 0px;
-		font-size: 16px;
-	}
-	.innerspecial p,.innermenu p{
-		font-size: 13px;
-	}
+	
 	input{
 		padding: 30px 20px 10px 20px;
 	}
@@ -30,15 +20,7 @@
 	#home {
 		background-size: cover;
 	}
-	.innerspecial span.line{
-		margin-bottom: 0px;
-	}
-	.innerspecial span{
-		margin-bottom: 60px;
-	}
-	.innerspecial h2{
-		padding-top: 30px;
-	}
+
 	#o-umetniku .inneraboutright{
 		padding: 60px 0 100px;
 	}
@@ -69,28 +51,8 @@
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-	.innerspecial {
-		width: 33%;
-	}
-	.innerspecial span.line{
-		margin-bottom: 0px;
-	}
-	.innerspecial span{
-		margin-bottom: 60px;
-	}
-	.innerspecial h2{
-		padding-top: 30px;
-	}
-	#aboutus .inneraboutright{
-		padding: 60px 0 100px;
-	}
-	#aboutus .inneraboutleft{
-		padding: 0;
-	}
-	#aboutus .inneraboutleft p {
-		font-size: 20px;
-		line-height: 30px;   
-	}
+	
+	
 	.innermenu p{
 		font-size: 10px;
 	}
@@ -116,15 +78,7 @@
 		line-height: 45px;
 
 	}
-	#veggie{
-		padding: 65px 0;
-	}
-	#veggie p{
-		padding-bottom: 35px;
-	}
-	#aboutus{
-		padding: 60px 0 0;
-	}
+
 	
 	.innermenu p {
 		font-size: 13px;
@@ -170,16 +124,10 @@
 }
 
 @media only screen and (min-width:1000px) and (max-width: 1400px) {
-	#banner {
-		/*background-size: 600px, 40px;*/
-		background-position: center;
-	}
+	
 }
 @media only screen and (min-width:768px) and (max-width: 999px) {
-	#banner {
-		/*background-size: 750px, 40px;*/
-		background-position: center;
-	}
+	
 	.content div h2{
 		padding: 0;
 	}
@@ -198,32 +146,11 @@
 	#o-umetniku{
 		padding: 0px;
 	}
-	#banner {
-		background-position: center;		
-		/*padding: 160px 0 100px;*/
-		/*background-size: 600px, 40px*/
-	}
+	
 	.content div h2{
 		padding: 0;
 	}
-	.innerspecial {
-		width: 50%;
-	}
-	.innerspecial span.line{
-		margin-bottom: 0px;
-	}
-	.innerspecial span{
-		margin-bottom: 30px;
-	}
-	.innerspecial{
-		padding-top: 0px;
-	}
-	.innerspecial h2 {
-		padding-top: 38px;
-	}
-	.innerspecial:nth-child(1),.innerspecial:nth-child(2){
-		padding-top: 50px;
-	}
+	
 	.tab-links li {
 		margin: 30px 0;
 	}
@@ -233,42 +160,8 @@
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-	#banner {
-		background-position: 60% center;
-		padding: 160px 0 100px;
-	}
-	/*.innerbanner{
-		padding-bottom: 80px;
-	}*/
-	.innerspecial {
-		width: 50%;
-	}
-	.innerspecial span.line{
-		margin-bottom: 0px;
-	}
-	.innerspecial span{
-		margin-bottom: 0px;
-		line-height: 37px;
-		font-size: 14px;
-	}
-	.innerspecial{
-		padding-top: 0px;
-	}
-	.innerspecial p{
-		line-height: 17px;
-	}
-	.innerspecial h2 {
-		padding-top: 0px;
-		line-height: 37px;
-		font-size: 15px;
-	}
-	.innerspecial:nth-child(1),.innerspecial:nth-child(2){
-		padding-top: 50px;
-	}
-	#aboutus .inneraboutleft p{
-		font-size: 18px;
-		line-height: 34px;
-	}
+
+	
 	.tab-links li {
 		margin: 10px 0 0;
 	}
@@ -294,9 +187,7 @@
 	footer{
 		    padding: 70px 0 120px;
 	}
-	#aboutus .inneraboutleft{
-		padding: 0;
-	}
+	
 
 }
 
